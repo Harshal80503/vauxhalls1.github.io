@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Responsive Navbar</title> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <!-- <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie-edge">
+      
+
+      <title>
+        
+      </title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
+    
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 1%;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+      
+
+        h1{text-align: center;}
+        
+        
+
+        </style> 
+</head>
+<body bgcolor="black">
+     <!--
+    <header >
+        
+      
+        <div class="logo">
+            <img src="logo.png.jpg">
+        </div>
+
+        <br>
+        <br>
+
+       
+        
+        <div class="ul">
+        <ul>
+            <li style="color: red;"><a href="#">Vehicles </a></li>
+            &nbsp;&nbsp;
+            <li style="color: red;"><a href="#">Tools </a></li>
+            &nbsp;&nbsp;
+            <li style="color: red;"><a href="#">Rules </a></li>
+            &nbsp;&nbsp;
+            <li style="color: red;"><a href="#">About </a></li>
+            
+        </ul>
+        </div>  
+      
+        
+    </header>
+  -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Vauxhall</label>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Vehicles</a></li>
+      <li><a href="#">Tools</a></li>
+      <li><a href="#">Rules</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- <section></section> -->
+  <!-- <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">VAUXHALL</label>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Vehicles</a></li>
+      <li><a href="#">Tools</a></li>
+      <li><a href="#">Rules</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  <section></section> -->
+  <div class="slidershow middle">
+
+
+    <div class="slides">
+      <input type="radio" name="r" id="r1" checked>
+      <input type="radio" name="r" id="r2">
+      <input type="radio" name="r" id="r3">
+      <input type="radio" name="r" id="r4">
+      <input type="radio" name="r" id="r5">
+      
+
+      <div class="slide s1">
+        <img src="sli1.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="sli2.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="sli3.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="sli4.png" alt="">
+      </div><div class="slide">
+        <img src="sli5.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <label for="r1" class="bar"></label>
+    <label for="r2" class="bar"></label>
+    <label for="r3" class="bar"></label>
+    <label for="r4" class="bar"></label>
+    <label for="r5" class="bar"></label>
+  </div>
+
+  <div class="open">
+    <img src="ofb.png" width="100%" height="50%">
+  </div>
+
+  <div class="pmod">
+  <h1>POPULAR MODELS</h1>
+  </div>
+
+  <div class="grid1">
+    <div class="item1">
+      <img src="scr1.png" class="i1"><br>
+      <button class="a1" type="button">All-New Corsa</button>
+
+    </div>
+
+    <div class="item2">
+      <img src="scr2.png" class="i2"><br>
+      <button class="a2" type="button">Crossland X</button>
+      
+    </div>
+
+    <div class="item3">
+      <img src="scr3.png" class="i3"><br>
+      <button class="a3" type="button">Grandland X</button>
+      
+    </div>
+
+    <div class="item4">
+      <img src="scr4.png" class="i4"><br>
+      <button class="a4" type="button">New Astra</button>
+      
+    </div>
+
+  </div>
+
+  
+
+  
+    <!--
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        
+      </label>
+      <label class="logo">VAUXHALL</label>
+      <ul>
+        
+        <li><a href="#">Vehicles</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Rules</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  -->
+    <!--
+    <div class="Image">
+        <img src="Image.png" width="100%" height="50%">
+    </div>
+    -->
+
+    
+
+    
+    <!--
+    <div class="Popular1">
+        <button class="Popular2" type="button">&nbsp; &nbsp;&nbsp;&nbsp;Popular Models &nbsp; &nbsp;&nbsp;&nbsp;</button>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="co1">
+      <button  class="co2" type="button">THE ALL NEW CORSA</button>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="c1.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="c2.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="c3.png" style="width:100%">
+      </div>
+    </div>
+
+    <div class="c1">
+      <button  class="c2" type="button">&nbsp; &nbsp;&nbsp;CROSSLAND X&nbsp; &nbsp;&nbsp;</button>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="cr1.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="cr2.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="cr3.png" style="width:100%">
+      </div>
+    </div>
+
+    <div class="g1">
+      <button  class="g2" type="button">&nbsp; &nbsp;&nbsp;GRANDLAND X&nbsp; &nbsp;&nbsp;</button>
+    </div>
+
+
+    <div class="row">
+      <div class="column">
+        <img src="gr1.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="gr2.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="gr3.png" style="width:100%">
+      </div>
+    </div>
+
+    <div class="a1">
+      <button  class="a2" type="button">&nbsp;THE ALL NEW ASTRA&nbsp;</button>
+    </div>
+    
+
+    <div class="row">
+      <div class="column">
+        <img src="as1.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="as2.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="as3.png" style="width:100%">
+      </div>
+    </div>
+
+    
+
+    <br>
+    <br>
+    -->
+    <div class="ball">
+      <button  class="all" type="button">&nbsp; &nbsp;&nbsp;See All Models&nbsp; &nbsp;&nbsp;</button>
+    </div>
+
+    <br>
+    <br>
+    
+
+    <h1 style="color: grey;">&nbsp;&nbsp;&nbsp;&nbsp;Get Started</h1>
+
+    <div class="agrid1">
+      <div class="aitem1">
+        <img src="gs1.png" class="ai1">  
+      </div>
+  
+      <div class="aitem2">
+        <img src="gs2.png" class="ai2">
+      </div>
+  
+      <div class="aitem3">
+        <img src="gs3.png" class="ai3">
+      </div>
+  
+      
+  
+    </div>
+    <!--
+    <div class="row">
+      <div class="column">
+        <img src="gs1.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="gs2.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="gs3.png" style="width:100%">
+      </div>
+    </div>
+  -->
+    <br>
+    <br>
+
+    
+
+    <div class="jumbotron">
+      <div class="jumbotron-inner">
+        <h2>Order your next car from your sofa</h2>
+        <p>
+          PICK YOUR MODEL:<br>
+          We can help you find your perfect Vauxhall to suit your life - it couldn’t be simpler.
+          <br>
+          CHOOSE EXTRAS:<br>
+          Make your new car all about you. Pick from extras for performance, safety, style and to add your own personal touch. 
+          <br>
+          GET THE RIGHT PRICE: <br>
+          With all the options and offers available, you can get your dream car at a dream price.
+          <br>
+          ORDER: <br>
+          You can order virtually everything online now from an afternoon cuppa and cake to tickets into space. Why not a car? It only takes a few clicks.
+ 
+        </p>
+        <div class="jumbotron-btn">
+          <a href="#" class="btn-one">Learn More</a>
+          <a href="#" class="btn-two">Order Online</a>
+
+        </div>
+        </div>
+      </div>
+      <br>
+      <!--
+      <br>
+      
+      <div class="footer">
+        <div class="inner-footer">
+          
+          <div class="footer-items">
+            <h2>VEHICLES</h2>
+            <p><a href="#">City Cars</a></p>
+            <p><a href="#">Family Cars</a></p>
+            <p><a href="#">7 Seater Cars</a></p>
+            <p><a href="#">SUVs</a></p>
+            </div>
+
+            <div class="footer-items">
+              <h2>TOOLS</h2>
+              <p><a href="#">Build & Price</a></p>
+              <p><a href="#">Book a service</a></p>
+              <p><a href="#">Find a retailer</a></p>
+              <p><a href="#">Newsletter</a></p>
+              </div>
+
+              <div class="footer-items">
+                <h2>RULES</h2>
+                <p><a href="#">Latest News</a></p>
+                <p><a href="#">VMag</a></p>
+                <p><a href="#">Future Models</a></p>
+                <p><a href="#">VXR</a></p>
+              </div>
+
+              <div class="footer-items">
+                  <h2>ABOUT</h2>
+                  <p><a href="#">Contact Us</a></p>
+                  <p><a href="#">About Vauxhall</a></p>
+                  <p><a href="#">Careers</a></p>
+                  <p><a href="#">Sustainability</a></p>
+              </div>
+
+              <br>
+              <br>
+              <br>
+              <br>
+
+
+              
+              <div class="info">
+                <h1>Headquarters</h1>
+                <div class="i1">
+                <p style="color: white;"><a href="">Address: Luton, UNITED KINGDOM</a></p>
+                <br><br>
+                </div>
+
+                
+
+
+                
+
+             
+              
+    
+        </div>
+      </div>
+
+     
+
+      <div class="row">
+        <div class="column1">
+          <img src="flogo.png" style="width:5%">
+        </div>
+        <div class="column1">
+          <img src="ilogo.png" style="width:5%">
+        </div>
+        <div class="column1">
+          <img src="tlogo.png" style="width:5%">
+        </div>
+        <div class="column1">
+          <img src="ylogo.png" style="width:5%">
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Designed by Harshal </p>
+      </div>
+
+    -->
+    
+    <!-- <div class="footer">
+      <div class="inner-footer">
+
+        <div class="footer-items">
+          <h2>Vehicles</h2>
+          <div class="border"></div>
+          <ul>
+            <a href=""><li>City Cars</li></a>
+            <a href=""><li>Family Cars</li></a>
+            <a href=""><li>7 Seater Cars</li></a>
+            <a href=""><li>SUVs</li></a>
+          </ul>
+        </div>
+        
+        <div class="footer-items">
+          <h2>Tools</h2>
+          <div class="border"></div>
+          <ul>
+            <a href=""><li>Build & Price</li></a>
+            <a href=""><li>Book a service</li></a>
+            <a href=""><li>Find a retailer</li></a>
+            <a href=""><li>Newsletter</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>Rules</h2>
+          <div class="border"></div>
+          <ul>
+            <a href=""><li>Latest News</li></a>
+            <a href=""><li>VMag</li></a>
+            <a href=""><li>Future Models</li></a>
+            <a href=""><li>VXR</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>Contact Us</h2>
+          <div class="border"></div>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>1,ABC Street, Luton, UK</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>support@vauxhall.com</li>
+            
+          </ul>
+        
+
+          <div class="social-media">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+          </div>
+        
+        </div>
+      </div>
+      <div class="footer-bottom">
+       Designed by Harshal Sharma. Copyright &copy; Vauxhall motors
+      </div>
+    </div>
+    
+  --> 
+
+  <div class='grid2'>
+    <div class='f1'>
+      <h5 class="aq1">VEHICLES</h5>
+      <div class="border"></div><br>
+      
+        <a href="#" class='j1'>City Cars</a><br><br>
+        <a href="#" class='j2'>Family Cars</a><br><br>
+        <a href="#" class='j3'>7 Seater Cars</a><br><br>
+        <a href="#" class='j4'>SUVs</a>
+      
+      
+    </div>
+
+    <div class='f2'>
+      <h5 class="aq2">TOOLS</h5>
+      <div class="border"></div><br>
+      <a href="#" class='j5'>Build & Price</a><br><br>
+      <a href="#" class='j6'>Book a Service</a><br><br>
+      <a href="#" class='j7'>Find a Retailer</a><br><br>
+      <a href="#" class='j8'>Newsletter</a>
+    </div>
+
+    <div class='f3'>
+      <h5 class="aq3">RULES</h5>
+      <div class="border"></div><br>
+      <a href="#" class='j9'>Latest News</a><br><br>
+      <a href="#" class='j10'>VMag</a><br><br>
+      <a href="#" class='j11'>Future Models</a><br><br>
+      <a href="#" class='j12'>VXR</a>
+    </div>
+
+    <div class='f4'>
+      <h5 class="aq4">CONTACT US</h5>
+      <div class="border"></div><br>
+      <div class="he">
+      <h6 class='j13'></h6><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;1,ABC Street, Luton, UK</h6>
+      <br><br>
+
+      <h6 class="j14"></h6><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;0123456789</h6> 
+      <br><br>
+      <h6 class="j15"></h6><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;support@vauxhall.com</h6>
+      
+        
+      </div>
+      </div>
+
+
+
+  </div>
+
+  <div class="footer">
+    <div class="inner-footer">
+
+      
+
+     
+
+     
+      
+
+        <div class="social-media">
+          <a href=""><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
+          <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+          <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
+          <a href=""><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+      
+      
+    </div>
+    <div class="footer-bottom">
+     Designed by Harshal Sharma. Copyright &copy; Vauxhall motors
+    </div>
+  </div>
+    
+    
+  
+
+  
+
+</body>
+
+
+
+
+</html>
